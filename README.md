@@ -18,3 +18,7 @@
     - Integração em aplicações
     - Pesquisa e análise
     - Entretenimento
+  - O que são Prompts ?
+    - Os prompts são, essencialmente, as entradas que o usuário fornece ao ChatGPT para obter a resposta correspondente
+    - Simplificando é o texto que você fornece como entrada ao ChatGPT
+    - O Comprimento do prompt pode afetar diretamente a qualidade e a relevância da resposta gerada pelo o ChatGPT
