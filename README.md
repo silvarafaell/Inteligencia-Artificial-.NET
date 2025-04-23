@@ -22,3 +22,19 @@
     - Os prompts são, essencialmente, as entradas que o usuário fornece ao ChatGPT para obter a resposta correspondente
     - Simplificando é o texto que você fornece como entrada ao ChatGPT
     - O Comprimento do prompt pode afetar diretamente a qualidade e a relevância da resposta gerada pelo o ChatGPT
+
+### Seção 3 - Conhecendo a API da OpenAI(ChatGPT)
+- O que é a OpenAPI ?
+  - Uma organização de pesquisa em inteligência artificial (IA)
+  - Tem como o foco o desenvolvimento de algoritmos de deep learning e o avança do processamento de linguagem natural (NLP)
+  - Produtos Inovadores da OpenAI ?
+    - GPT (Generative Pretrained Transformer)
+    - ChatGPT
+    - DALL E : Imagens a partir de texto
+    - Codex: Assistente para Programadores
+  - O que é o GPT ?
+    - GPT(Generative Pre-trained Transformer) em português significa Transformador Generativo Pré-Treinado;
+    - Um tipo de algoritmo de Inteligência Artificial usado tanto para a compreensão quanto para a geração de linguagem natural.
+  - O que são modelos LLM ?
+    - Modelos são algoritmos treinados em grandes volumes de dados para identificar padrões, fazer previsões e tomar decisões sem que precisem ser explicitamente programados para essas tarefas.
+    - Os produtos da OpenAI são, modelos de machine leargning treinados com imensos datasets para fornecer resultados cada vez mais precisos.
