@@ -38,3 +38,13 @@
   - O que são modelos LLM ?
     - Modelos são algoritmos treinados em grandes volumes de dados para identificar padrões, fazer previsões e tomar decisões sem que precisem ser explicitamente programados para essas tarefas.
     - Os produtos da OpenAI são, modelos de machine leargning treinados com imensos datasets para fornecer resultados cada vez mais precisos.
+
+### Seção 5: Integrando uma Aplicação ASP.NET com .NET AI a OpenAI e ChatGPT
+- O que é .NET AI
+  - Conjunto de ferramentas,bibliotecas e serviços dentro do ecossistema .NET que permitem aos desenvolvedores integrar funcionalidades de Inteligência Artificial (IA) e Aprendizado de Maquina (ML).
+  - Os principais componentes do .NET AI
+    - ML .NET
+    - Microsoft.Extensions AI
+    - Azure OpenAI
+    - OpenAI .NET API
+    - AI app template
