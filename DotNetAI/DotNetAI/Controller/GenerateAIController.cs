@@ -13,7 +13,7 @@ namespace DotNetAI.Controller
         }
 
         [HttpGet("ask-ai")]
-        public async Task<IActionResult> AskAi([FromBody] string prompt)
+        public async Task<IActionResult> AskAi([FromQuery] string prompt)
         {
             if (string.IsNullOrWhiteSpace(prompt))
             {
