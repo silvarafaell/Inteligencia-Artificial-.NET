@@ -1,4 +1,5 @@
 ﻿using OpenAI;
+using OpenAI.Chat;
 
 namespace DotNetAI.Service
 {
@@ -20,6 +21,26 @@ namespace DotNetAI.Service
 
 
             return response.Value.Content[^1].Text ?? "No response for OpenAI";
+        }
+
+        public async Task<string> GetResponseWithOptionsAsync(string prompt)
+        {
+            var chatClient = _openAIClient.GetChatClient(_model);
+
+            var messages = new List<ChatMessage>
+            {
+                new UserChatMessage(prompt)
+            };
+
+            var options = new ChatCompletionOptions
+            {
+                Temperature = 0.4f,
+                MaxOutputTokenCount = 200
+            };
+
+            var response = await chatClient.CompleteChatAsync(messages, options);
+
+            return response.Value.Content[^1].Text ?? "No response for OpenAI.";
         }
     }
 }
