@@ -1,9 +1,12 @@
 using DotNetAI.Extensions;
+using DotNetAI.Service;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.AddOpenAI();
+
+builder.Services.AddSingleton<ChatService>();
 // Add services to the container.
 
 builder.Services.AddControllers();
